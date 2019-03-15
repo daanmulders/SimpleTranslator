@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SimpleTranslator.jnlp">
+  <information>
+    <title>SimpleTranslator</title>
+    <vendor>daan-</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SimpleTranslator.jar" size="441687" download="eager" />
+    <jar href="lib\jsoup-1.11.3.jar" size="395748" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="simpletranslator.SimpleTranslator"  name="SimpleTranslator" />
+  <update check="always"/>
+</jnlp>
